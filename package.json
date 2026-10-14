@@ -1,0 +1,39 @@
+{
+  "name": "pi-desktop",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "tauri": "tauri",
+    "desktop": "tauri dev",
+    "package": "tauri build",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.0.0",
+    "@tauri-apps/plugin-notification": "^2.0.0",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/xterm": "^5.5.0",
+    "lucide-react": "^0.468.0",
+    "monaco-editor": "^0.52.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}

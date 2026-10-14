@@ -1,0 +1,22 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.tsbuildinfo
+outputs/
+.impeccable/review/
+release/*.exe
+release/*.zip
+release/*-source.sha256
+
+# 本地工具、过程记录与敏感配置
+.impeccable/
+.tools/
+AGENTS.md
+agent.md
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx

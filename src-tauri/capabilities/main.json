@@ -1,0 +1,17 @@
+{
+  "identifier": "main",
+  "description": "Pi Desktop main window only",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-theme",
+    "dialog:allow-open",
+    "dialog:allow-confirm",
+    "notification:default",
+    "core:window:allow-close",
+    "core:window:allow-show",
+    "core:window:allow-is-visible"
+  ]
+}
